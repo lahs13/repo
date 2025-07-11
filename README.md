@@ -13,7 +13,6 @@ print(hello('World'))
 ## Chatbot
 
 The chatbot fetches information from a Postgres database and forwards it to
-ChatGPT. Set the following environment variables before running:
 
 - `DATABASE_URL` - connection string for your Postgres database
 - `OPENAI_API_KEY` - API key for OpenAI
